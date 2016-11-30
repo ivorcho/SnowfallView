@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SnowfallView">
+        <!-- Reference to a drawable which to be used as a snowflake -->
+        <attr name="snowflake" format="reference"/>
+        <!-- Rate in milliseconds at which the snowflakes are spawned -->
+        <attr name="spawnRate" format="integer"/>
+    </declare-styleable>
+</resources>
